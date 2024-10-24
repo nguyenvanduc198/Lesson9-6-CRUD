@@ -1,0 +1,65 @@
+
+#instruction {
+    margin-top: 30px;
+}
+
+#instruction h1 {
+    text-align: center;
+    color: white;
+}
+
+#instruction p {
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui;
+    color: dodgerblue;
+    background-color: antiquewhite;
+    border-radius: .5em;
+    padding: .5em;
+    border: 2px solid chocolate;
+}
+
+body {
+    background-color: tomato !important;
+}
+.block {
+    width: 1000px;
+    background-color: white;
+    margin-left: calc((100% - 1000px) / 2);
+    padding: 1em;
+    font-family: system-ui;
+    border-radius: 0.3em;
+}
+
+.title, .submit-button {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: large;
+}
+
+input {
+    width: 100%;
+    background-color: lavender;
+    padding: .5em;
+    border-radius: .2em;
+    border: 0px;
+}
+
+input:focus {
+    border: 2px solid rgb(100, 42, 0);
+    outline: none;
+}
+
+.submit-button{
+    background-color: #2e7d32;
+    color: white;
+}
+
+.additional-text {
+    text-align: center;
+}
+
+.additional-text a {
+    color: blue;
+    text-decoration: underline;
+}
